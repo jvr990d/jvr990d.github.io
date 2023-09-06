@@ -1,0 +1,45 @@
+head{
+    color:rgb(247, 249, 252)
+}
+main{
+    color:aliceblue;
+}
+body {
+    background-color:rgb(25, 25, 31) ;
+    background-image: url(/itis3135/images/woodward.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-blend-mode:hard-light;
+  }
+  nav{
+color: chartreuse;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  h2{
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  p {
+    color:aliceblue;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  figure{
+    color:aliceblue;
+    text-align: center;
+    font-style: italic;
+  }
+  p{
+    color:aliceblue;
+    font-style: oblique;
+  }
+  a{
+    color: greenyellow;
+    
+
+  }
