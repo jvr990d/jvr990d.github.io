@@ -1,0 +1,28 @@
+header{
+    background-image: url(../images/image1.jpg);
+    background-color: rgba(20, 14, 20, 0.985);
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(250, 3, 188, 0.974);
+    background-blend-mode:hard-light;
+    text-align: center;
+    font-size:x-large;
+    font-size: x-large;
+    
+}
+body{
+    background-image: url(../images/image3.jpg);
+    background-size: cover;
+    color:aliceblue;
+    background-color: black;
+    background-blend-mode:hard-light;
+    background-size: cover;
+}
+a{
+    color:chartreuse
+}
+footer{
+    background-color: gray;
+    color: rgba(0, 0, 0, 0.);
+}
