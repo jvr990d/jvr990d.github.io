@@ -2,25 +2,27 @@ head{
     color:rgb(247, 249, 252)
 }
 main{
-    color:aliceblue;
+    color:rgb(232, 11, 26);
 }
 body {
     background-color:rgb(25, 25, 31) ;
+    background-image: url(../images/fomrpic.jpg);
+    background-size: cover;
   }
   nav{
 color: chartreuse;
   }
   h1 {
-    color: white;
+    color: rgb(245, 4, 4);
     text-align: center;
   }
   h2{
-    color: aliceblue;
+    color: rgb(254, 8, 217);
     text-align: center;
   }
   
   p {
-    color:aliceblue;
+    color:rgb(75, 106, 134);
     font-family: verdana;
     font-size: 20px;
   }
