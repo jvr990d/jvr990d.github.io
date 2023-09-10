@@ -1,0 +1,34 @@
+
+body{
+    background-color: blanchedalmond;
+}
+h2{
+    font-style: italic;
+}
+h3{
+    color: rgb(226, 119, 43);
+}
+a{
+    color:rgb(24, 136, 99);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+  
+tr:nth-child(odd) {
+    background-color: rgb(29, 17, 150);
+    color:aliceblue;
+}
+
+tr:nth-child(1) {
+    background-color: rgb(29, 17, 100);
+    color:aliceblue;
+    font-style:oblique;
+}
