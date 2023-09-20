@@ -1,0 +1,14 @@
+ul, p, h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+}
+h1{
+    text-decoration: underline;
+    background-color: rgb(65, 63, 63);
+    border: 50px solid #f107ab;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-width: 175px;
+}

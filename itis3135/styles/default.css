@@ -1,11 +1,11 @@
-head{
-    color:rgb(247, 249, 252)
+header{
+  text-align: center;
 }
 main{
     color:aliceblue;
 }
 body {
-    background-color:rgb(25, 25, 31) ;
+    background-color: #395C6B ;
   }
   nav{
 color: chartreuse;
@@ -37,9 +37,7 @@ color: chartreuse;
   a{
     color: greenyellow;
   }
-  header{
-    text-align: center;
-  }
+
   footer{
     text-align:left;
   }
