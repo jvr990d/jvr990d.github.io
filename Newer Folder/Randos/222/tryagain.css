@@ -12,3 +12,21 @@ h1{
     border-bottom-left-radius: 80px;
     border-bottom-width: 175px;
 }
+li{
+    margin-top: 10px;
+    margin-top: 100px;
+    
+}
+nav{
+    margin-left: 50px;
+    margin-right: 150px;
+    margin-block-start: 55px;
+    margin-inline-end: 500px;
+}
+body{
+    background-color: darkslategray;
+}
+
+p{
+    font-size: 60px;
+}
