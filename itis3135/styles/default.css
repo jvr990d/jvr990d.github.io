@@ -36,8 +36,10 @@ color: chartreuse;
   }
   a{
     color: greenyellow;
+    text-decoration: none;
   }
 
   footer{
     text-align:left;
   }
+  
