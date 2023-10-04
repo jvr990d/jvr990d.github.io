@@ -1,8 +1,9 @@
 header{
+  color: #f0e68c;
   text-align: center;
 }
 main{
-    color:aliceblue;
+    color: #f0e68c;
 }
 body {
     background-color: #395C6B ;
@@ -11,27 +12,26 @@ body {
 color: chartreuse;
   }
   h1 {
-    color: white;
+
     text-align: center;
   }
   h2{
-    color: aliceblue;
+ 
     text-align: center;
   }
   
   p {
-    color:aliceblue;
     font-family: verdana;
     font-size: 20px;
   }
 
   figure{
-    color:aliceblue;
+
     text-align: center;
     font-style: italic;
   }
   p{
-    color:aliceblue;
+
     font-style: oblique;
   }
   a{
@@ -40,6 +40,7 @@ color: chartreuse;
   }
 
   footer{
+    color: #f0e68c;
     text-align:left;
   }
   
