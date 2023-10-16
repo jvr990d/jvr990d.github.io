@@ -39,6 +39,10 @@ color: chartreuse;
     text-decoration: none;
   }
 
+textarea, input{
+  background-color: rgb(186, 132, 65);
+}
+
   footer{
     color: #f0e68c;
     text-align:left;
