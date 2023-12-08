@@ -29,17 +29,32 @@ function getPolygonName(sides) {
 
 function provideInsult() {
     // Function to provide a harmless insult
-    alert("You look you'd build a crappy webpage!");
+    alert("Your code looks like it was made by a student in 1212");
 }
 
-function calculateTax() {
-    // Function to calculate tax (replace with your own calculation)
-    alert("Tax calculation: You owe $1000.");
-}
+function randomColor() {
+    const colorChoice = [
+        "Tag Heuer Monaco",
+        "Jaiger-LeCoultre Reverso",
+        "Cartier Santos",
+        "Breitling Navitimer",
+        "Rolex Daytona",
+        "Patek Philippe Nautilus",
+        "Rolex Datejust",
+        "Audemars Piguet Royal Oak",
+        "Rolex Submariner",
+        "Omega Speedmaster Professional"
+    ];
+  
+    const colorChosen = colorChoice[Math.floor(Math.random() * colorChoice.length)];
+    alert(`Your color is : "${colorChosen}"`);
+  }
+
+
 
 function provideQuote() {
     // Function to provide an inspirational quote
-    alert("Inspirational Quote: 'Success is not final, failure is not fatal: It is the courage to continue that counts.' - Winston Churchill");
+    alert("Albert Einstein: Imagiination is more important thatn knowledge. Knowledge is limited. Imagination encircles the world");
 }
 
 function watchBrands() {
