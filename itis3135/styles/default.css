@@ -1,12 +1,13 @@
 @media (min-width: 576px) {
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
   body {
       margin: 10px;
       background-color: #395C6B ;
-  }
-
-  img {
-      max-width: 100%;
-      height: auto;
   }
 
   header {
@@ -76,5 +77,5 @@ textarea, input{
     color: #f0e68c;
     text-align:left;
   }
-}
+
 
