@@ -34,16 +34,16 @@ function provideInsult() {
 
 function randomColor() {
     const colorChoice = [
-        "Tag Heuer Monaco",
-        "Jaiger-LeCoultre Reverso",
-        "Cartier Santos",
-        "Breitling Navitimer",
-        "Rolex Daytona",
-        "Patek Philippe Nautilus",
-        "Rolex Datejust",
-        "Audemars Piguet Royal Oak",
-        "Rolex Submariner",
-        "Omega Speedmaster Professional"
+        "Blue",
+        "Green",
+        "Yellow",
+        "Purple",
+        "Red",
+        "Violet",
+        "Brown",
+        "Black",
+        "White",
+        "Gray"
     ];
   
     const colorChosen = colorChoice[Math.floor(Math.random() * colorChoice.length)];
