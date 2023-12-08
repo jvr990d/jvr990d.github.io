@@ -56,7 +56,7 @@ function watchBrands() {
         "Omega Speedmaster Professional"
     ];
   
-    const watchChosen = watchBrands[Math.floor(Math.random() * watchBrands.length)];
+    const watchChosen = watchChoice[Math.floor(Math.random() * watchChoice.length)];
     alert(`Your next watch should be a : "${watchChosen}"`);
   }
   
