@@ -8,54 +8,42 @@
     <link rel="stylesheet" href="styles/calculator1.css"
 
 </head>
-
 <body>
-    <header>
-        <div data-include="components/header.html"></div>
-    </header>
-<div class="container"></div>
-    <div class="calculator">
-        <form>
-            <div class="display">
-                <input type="text" name="display">
+    <div data-include="components/header.html"></div>
+    <main>
+        <div class="container">
+
+            <div class="calculator">
+              <div class="calculator__display">0</div>
+              <div class="calculator__keys">
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">&times;</button>
+                <button class="key--operator" data-action="divide">÷</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="clear">AC</button>
+                <button class="key--equal" data-action="calculate">=</button>
+              </div>
             </div>
-            <div>
-                <input type="button" value="AC" onclick="display.value = ''">
-                <input type="button" value="DE" onclick ="display.value = display.value.toString().slice(0,-1)">
-                <input type="button" value="." onclick="display.value += '.' ">
-                <input type="button" value="/" onclick="display.value += '/' ">
-            </div>
-            <div>
-                <input type="button" value="7" onclick="display.value += '7' ">
-                <input type="button" value="8" onclick="display.value += '8' ">
-                <input type="button" value="9" onclick="display.value += '9' ">
-                <input type="button" value="*" onclick="display.value += '*' ">
-            </div>
-            <div>
-                <input type="button" value="4" onclick="display.value += '4' ">
-                <input type="button" value="5" onclick="display.value += '5' ">
-                <input type="button" value="6" onclick="display.value += '6' ">
-                <input type="button" value="-" onclick="display.value += '-' ">
-            </div>
-            <div>
-                <input type="button" value="1" onclick="display.value += '1' ">
-                <input type="button" value="2" onclick="display.value += '2' ">
-                <input type="button" value="3" onclick="display.value += '3' ">
-                <input type="button" value="+" onclick="display.value += '+' ">
-            </div>
-            <div>
-                <input type="button" value="00" onclick="display.value += '00' ">
-                <input type="button" value="0" onclick="display.value += '0' ">
-                <input type="button" value="=" onclick="display.value=eval(display.value)" class="equal">
-            </div>
-        </form>
-    </div>
-    <break> </break>
+          </div>
+    </main>
+
     <footer>
         <div data-include="components/footer.html"></div>
-    <script src="../itis3135/scripts/HTMLInclude.js"></script>
     </footer>
     <script src="scripts/survey.js"></script>
+    <script src="scripts/HTMLInclude.js"></script>
+    <script src="scripts/Calculator.js"></script>
 
 
 </body>

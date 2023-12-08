@@ -1,7 +1,36 @@
-header{
-  color: #f0e68c;
-  text-align: center;
-}
+@media (min-width: 576px) {
+  body {
+      margin: 10px;
+      background-color: #395C6B ;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  header {
+      text-align: center;
+      padding: 10px;
+      color: #f0e68c;
+      text-align: center;
+  }
+
+  header .nav {
+      margin-top: 10px;
+      list-style: none;
+  }
+
+  header .nav li {
+      display: inline;
+      margin-right: 10px;
+  }
+
+  footer {
+      padding: 10px;
+      text-align: center;
+  }
+
 main{
     color: #f0e68c;
 }
@@ -47,4 +76,5 @@ textarea, input{
     color: #f0e68c;
     text-align:left;
   }
-  
+}
+
