@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Velasco Joyfull Vampire || ITIS 3135|| First Script</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h1>First Scrpits</h1>
+        <h3 id="dateTime"></h3>
+        <form id="userForm">
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" required><br>
+
+            <label for="userMood">How You're Feeling:</label>
+            <input type="text" id="userMood" required><br>
+
+            <label for="userNumber">Your Favorite Number:</label>
+            <input type="number" id="userNumber" required><br>
+
+            <button type="button" onclick="greetUser()">Submit</button>
+        </form>
+
+        <div id="greeting"></div>
+
+        <h3>Choose an Action:</h3>
+        <button onclick="provideInsult()">Provide an Insult</button>
+        <button onclick="randomColor()">Generate Ranom Color</button>
+        <button onclick="provideQuote()">Provide an Inspirational Quote</button>
+        <button onclick="watchBrands()">What will be your next watch</button>
+    </main>
+    
+
+    
+
+    <div data-include="components/footer.html"></div>
+</footer>
+<script src="scripts/HTMLInclude.js"></script>
+<script src="scripts/firstJavaScript.js"></script>
+<script src="styles/form.css"></script>
+</body>
+</html>
