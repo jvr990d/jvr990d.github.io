@@ -2,16 +2,18 @@
         /* Embedded Stylesheet */
         body {
             font-family: Arial, sans-serif;
-            background-color: bisque;
+            background-color: rgb(252, 153, 95);
             margin: 0;
             padding: 0;
         }
 
         header {
             background-color: #720026;
-            color: Bisque;
-            padding: 10px;
+            color: rgb(255, 0, 0);
             justify-content: space-around;
+            background-image:url(../images/header.png);
+            background-position: center;
+            background-size: 100%;
         }
 
         h1{
@@ -51,22 +53,22 @@
         }
 
         footer {
-            background-color: #720026;
-            color: #F2E2D2;
+            background-color: #3826ac;
+            color: #f8f6f5;
             text-align: center;
             padding: 10px;
             justify-content: space-around;
         }
 
         a:link{
-            color: black;
+            color: rgb(241, 6, 6);
         }
         
         
         
         a:hover{
-            color: #720026;
-            background-color: #53599A;
+            color: #ffffff;
+            background-color: #075e2b;
         }
         
         a:active{
@@ -75,7 +77,7 @@
 
       
         footer a {
-            color: #F2E2D2;
+            color: #ff29d4;
             text-decoration: none;
         }
 
