@@ -1,0 +1,100 @@
+
+        /* Embedded Stylesheet */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: bisque;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #720026;
+            color: Bisque;
+            padding: 10px;
+            justify-content: space-around;
+        }
+
+        h1{
+            font-size: 25px;
+            padding-left: 15px;
+        }
+
+        #history1, #history2, #new{
+            text-indent: 20px;
+        }
+
+        
+
+        header img{
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+
+       img{
+        width: 75%;
+        height: 75%;
+        margin: 0 auto;
+       }
+
+        figcaption{
+            font-size: 18px;
+            text-align: center;
+            
+        }
+
+        main {
+            padding: 20px;
+        }
+        div{
+            text-align: center;
+        }
+
+        footer {
+            background-color: #720026;
+            color: #F2E2D2;
+            text-align: center;
+            padding: 10px;
+            justify-content: space-around;
+        }
+
+        a:link{
+            color: black;
+        }
+        
+        
+        
+        a:hover{
+            color: #720026;
+            background-color: #53599A;
+        }
+        
+        a:active{
+            color: blue;
+        }
+
+      
+        footer a {
+            color: #F2E2D2;
+            text-decoration: none;
+        }
+
+        footer a[href^="sparkscorp.net/"]::before {
+            content: "Created by: ";
+        }
+
+        .contact-info{
+            font-size: 16px;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
+            border: 2px solid #1A1423;
+            text-align: left;
+
+            color: #685634;
+        }
+ 
+        #Conclusion{
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }

@@ -4,7 +4,7 @@ function greetUser() {
     const userNumber = Math.abs(Math.round(parseFloat(document.getElementById("userNumber").value)));
 
     const greeting = document.getElementById("greeting");
-    greeting.innerHTML = `Velasco Designs where design meets perfection, ${userName}!<br>We're glad you're doing ${userMood}!<br>`;
+    greeting.innerHTML = `Velasco Designs where design meets perfection, Welcomes you ${userName}!<br>We're glad you're doing ${userMood}!<br>`;
     
     // Determine and display the polygon name
     const polygonName = getPolygonName(userNumber);
